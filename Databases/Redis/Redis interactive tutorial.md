@@ -1,7 +1,8 @@
 Redis互动教程（中文）
 ===================================
 ### Author:Jason-wong
-### Url:https://github.com/jason-wong/documents_translate
+### 项目地址:https://github.com/jason-wong/documents_translate
+### 原文地址：http://try.redis.io/
 
 Intro
 -----------------------------------
@@ -175,16 +176,13 @@ Redis最后一个数据结构是有序集合。和普通集合类似，但它的
 
 
 
-
-
-
-
-
-
 以上就是Redis的互动教程，你可以在控制台中随意尝试一些你的想法。
 或者可以通过以下链接继续学习Redis。
-
+>
 Redis Documentation  http://redis.io/documentation
+>
 Command Reference  http://redis.io/commands
+>
 Implement a Twitter Clone in Redis  http://redis.io/topics/twitter-clone
+>
 Introduction to Redis Data Types  http://redis.io/topics/data-types-intro
