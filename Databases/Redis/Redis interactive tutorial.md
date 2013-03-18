@@ -18,7 +18,7 @@ Redis就是所谓的key-value存储系统，通常被称为NOSQL数据库，key-
 
 		SET server:name "fido"
 
-Redis会永久的存储我们的数据，所以我们之后可以在任何时候问Redis：“server:name中存储了什么值？”，然后Redis会回答——”fido”：
+Redis会永久的存储我们的数据，所以我们之后可以在任何时候问Redis：“server:name中存储了什么值？”，然后Redis会回答——“fido”：
 
 		GET server:name   =>   "fido"
 
@@ -73,9 +73,9 @@ Redis能够为一个key数据定义一个有效期，可以通过EXPIRE和TTL命
 
 		SET resource:lock "Redis Demo 1"
 		EXPIRE resource:lock 120
-		TTL resource:lock => 119
+		TTL resource:lock 	=> 119
 		SET resource:lock "Redis Demo 2"
-		TTL resource:lock => -1
+		TTL resource:lock 	=> -1
 
 
 Part 5
@@ -109,18 +109,18 @@ LLEN 返回列表的长度
 
 LPOP 移除列表中的第一个元素并将其返回
 
-		LPOP friends => "Sam"
+		LPOP friends 	=> "Sam"
 
 
 RPOP 移除列表中的最后一个元素并将其返回
 
-		RPOP friends => "Bob"
+		RPOP friends 	=> "Bob"
 
 
 列表现在只剩下了一个元素
 
-		LLEN friends => 1
-		LRANGE friends 0 -1 => ["Tom"]
+		LLEN friends 	=> 1
+		LRANGE friends 0 -1 	=> ["Tom"]
 
 Part 7
 -----------------------------------
