@@ -2,7 +2,7 @@ CS-Cart 开发者文档
 ===================================
 ### Author:Jason-wong
 ### 项目地址:https://github.com/jason-wong/documents_translate
-### 原文地址：http://try.redis.io/
+### 原文地址：http://docs.cs-cart.com/
 
 
 
