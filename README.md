@@ -3,9 +3,8 @@ Documents Translate
 
 Addlog
 ===================
-
-2013-03-19 add CS-Cart Developer Documentation
-2013-03-16 add Redis interactive tutorial
+>2013-03-19 add CS-Cart Developer Documentation
+>2013-03-16 add Redis interactive tutorial
 
 
 声明
