@@ -1,6 +1,13 @@
 Documents Translate
 ===================
 
+Addlog
+===================
+
+2013-03-19 add CS-Cart Developer Documentation
+2013-03-16 add Redis interactive tutorial
+
+
 声明
 ===================
 各种英文技术文档翻译，以学习新技术、锻炼英文以及节约阅读时间为目的。
