@@ -10,7 +10,7 @@ CS-Cart 开发者文档
 
 
 ## 引言
-* [CS-Cart 结构和接口概述](https://github.com/jason-wong/documents_translate) - 简短介绍CS-Cart的结构体系和应用程序接口。
+* [CS-Cart 结构和接口概述](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/cs-cart-architecture-api-overview.md) - 简短介绍CS-Cart的结构体系和应用程序接口。
 * [应用技术](https://github.com/jason-wong/documents_translate) - 概述CS-Cart背后的技术
 
 
