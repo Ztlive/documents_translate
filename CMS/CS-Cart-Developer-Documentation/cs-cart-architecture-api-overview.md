@@ -18,7 +18,7 @@ PHP钩子用来扩展并重写默认行为或核心函数。在[钩子](https://
 
 所有默认的控制器存储在controllers目录，插件控制器存储在插件目录——addons/[add-on_name]。可以通过[控制器](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/controllers.md)章节查阅到更多信息。
 
-为了影响控制器的默认行为，可以使用前置和Post控制器。可以到[前置控制器和Post控制器（Precontrollers and Postcontrollers）](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/precontrollers-and-postcontrollers.md) 章节学习使用这种技术，并且Postcontrollers的实际使用在[CS-Cart插件高级进阶篇](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/advanced-cs-cart-add-on.md)教程中。
+为了影响控制器的默认行为，可以使用前置和后置控制器。可以到[前置和后置控制器（Precontrollers and Postcontrollers）](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/precontrollers-and-postcontrollers.md) 章节学习使用这种技术，并且Postcontrollers的实际使用在[CS-Cart插件高级进阶篇](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/advanced-cs-cart-add-on.md)教程中。
 
 ## 模版
 CS-Cart使用Smarty来渲染数据，关于Smarty的基本信息可以参阅[Smarty基础](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/smarty-basics.md)。CS-Cart将前后台所有的主题模版存储在skins目录。

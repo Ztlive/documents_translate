@@ -17,7 +17,7 @@ CS-Cart 开发者文档
 ## 通用方法
 * [初始化](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/initialization.md) - 初始化步骤描述
 * [控制器](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/controllers.md) - 控制器结构和功能细节
-	* [前置控制器和Post控制器（Precontrollers and Postcontrollers）](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/precontrollers-and-postcontrollers.md) - 前置和Post控制器的概念和使用
+	* [前置和后置控制器（Precontrollers and Postcontrollers）](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/precontrollers-and-postcontrollers.md) - 前置和后置控制器的概念和使用
 * [数据库](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/database.md) - 数据库请求中的占位符使用
 	* [链接远程数据库](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/connect-additional-databases.md) 怎样链接和使用远程数据库
 * [钩子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/hooks.md) - 钩子的描述和例子
