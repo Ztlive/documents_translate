@@ -162,7 +162,7 @@ SELECT * cscart_orders WHERE  = 5;
 ## 老版本的差异
 
 * 弃用 db_update_by_array, db_insert_by_array，统一使用db_query来替代，返回自增长字段值
-* 函数db_quote添加到独立进程请求
+* 函数db_quote添加到请求的单独进程中
 * 函数db_get_hash_multi_array, db_get_hash_single_array的附件参数通过数组传递
 
 //here is what we had
