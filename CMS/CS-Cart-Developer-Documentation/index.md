@@ -22,7 +22,7 @@ CS-Cart 开发者文档
 	* [链接远程数据库](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/connect-additional-databases.md) 怎样链接和使用远程数据库
 * [钩子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/hooks.md) - 钩子的描述和例子
 * [微格式](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/microformats.md) - 微格式的描述和结构
-* [特殊课程](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/special-classes.md) - 特殊类的列表用于压缩CSS文件大小
+* [预定义样式](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/special-classes.md) - 预定义样式用于节省CSS文件大小
 * [AJAX](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/ajax.md) - 一个创建AJAX请求的例子
 * [通知](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/notifications.md) - 弹窗通知上的信息
 * [CS-Cart 3.1.x的结构变化](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/architecture-changes-in-cs-cart-3.1.x.md) - 介绍CS-Cart3.1.x的结构变化
@@ -53,6 +53,7 @@ CS-Cart 开发者文档
 	* [addon.xml](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/addon.xml.md) - addon.xml完整的注释例子
 	* [基础钩子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/hook-base.md) - 完整的钩子列表
 	* [微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/list-of-microformats.md) - CS-Cart微格式说明
+	* [预定义样式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/special-classes-list.md) - CS-Cart预定义样式说明
 	* [设计变更列子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/examples-of-design-changes.md) - 最常用的设计变更
 		* [店铺背景](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/store-background.md)
 		* [链接颜色](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/link-color.md)
