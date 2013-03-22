@@ -10,4 +10,4 @@
 
 搜索JS代码，处理某个微格式，有必要用子字符串.hasClass('cm-microformat-name')搜索，在/js/目录中。
 
-在[微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/list-of-microformats.md)中可以查阅CS-Cart所有的微格式列表。
+在[微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/microformats-list.md)中可以查阅CS-Cart所有的微格式列表。

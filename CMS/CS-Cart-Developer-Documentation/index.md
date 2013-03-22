@@ -52,7 +52,7 @@ CS-Cart 开发者文档
 	* [头部和文本格式](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/heading-and-text-formats.md) - 头部和文本格式的通用提示
 	* [addon.xml](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/addon.xml.md) - addon.xml完整的注释例子
 	* [基础钩子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/hook-base.md) - 完整的钩子列表
-	* [微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/list-of-microformats.md) - CS-Cart微格式说明
+	* [微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/microformats-list.md) - CS-Cart微格式说明
 	* [预定义样式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/special-classes-list.md) - CS-Cart预定义样式说明
 	* [设计变更列子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/examples-of-design-changes.md) - 最常用的设计变更
 		* [店铺背景](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/store-background.md)
