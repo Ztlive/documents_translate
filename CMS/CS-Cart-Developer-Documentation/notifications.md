@@ -59,4 +59,4 @@ if (defined('AJAX_REQUEST')) {
 
 3.当脚本执行完成或者终止函数exit();被显示调用，就会触发AJAX类（/core/class.ajax.php）中的析构函数，析构函数将以JSON格式传递通知数组并通过JS脚本中的ajaxResponse方法(/js/ajax.js)传递数据。
 
-4.然后ajaxResponse将会调用showNotification方法（/js/core.js），并向其传递所有已定义的AJAX通知数组，在showNotification函数中通过notification.append方法显示通知数据，它会添加HTML
+4.然后ajaxResponse将会调用showNotification方法（/js/core.js），并向其传递所有已定义的AJAX通知数组，在showNotification函数中通过notification.append方法显示通知数据，并为通知容器添加HTML代码。
