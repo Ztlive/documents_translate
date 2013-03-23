@@ -88,7 +88,7 @@ AJAX请求可以通过链接和表单发送，这两种情况，微格式cm-ajax
 微格式cm-ajax寄宿在链接和表单上，但是有很多可选的微格式,给开发者在CS-Cart中更多的控制AJAX，你可以在[微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/microformats-list.md)中找到更详细的列表。
 
 
-## 立即使用ajaxRequest
+## 直接使用ajaxRequest
 
 [编码规范](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/coding-standards.md)中提到不推荐直接在HTML中内嵌调用，所有的Javascript方法应放置到独立的文件中，并且通过CSS选择器关联HTML元素（id,class等等），虽然AJAX能够通过ajaxRequest方法直接发送内嵌调用：
 
