@@ -10,7 +10,7 @@
 
 ## 插件的PHP文件的所需目录 - /addons/addon_name
 
-* addon.xml - 该文件描述了插件的主要数据，在安装和删除插件时是必须的。
+* [addon.xml](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/addon.xml.md) - 该文件描述了插件的主要数据，在安装和删除插件时是必须的。
 * func.php - 插件控制器用到的函数。
 * init.php - 首要功能 – 注册插件用到的钩子列表
 * config.php - 插件的配置数据
