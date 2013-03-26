@@ -66,3 +66,28 @@
 		* __item__ - 插件设置项。属性：
 			* __@id__ - 设置标识符
 			* __@edition_type__ - 参考主模块中的__@edition_type__属性
+		* __type__ - 元素类型：input, textarea, password, checkbox, selectbox, multiple select, multiple checkboxes, countries list, states list, file, info, header, template
+		* __name__ - 默认语言的设置名称。
+		* __translations__ - 参考翻译模块
+		* __tooltip__ - 提示信息
+		* __default_value__ - 默认值，变量列表（多复选框，多下拉菜单）
+		* __variants__ - Variants for the types selectbox, multiple select, multiple checkboxes, combo select
+			* __item__ - Variant item.属性：
+				* __@id__ - Variant标识符
+			* __name__ - Variant名称
+			* __translations__ - 和翻译模块类似，不同的是只使用"for"属性
+			* __handler__ -  'info'类型设置处理函数。指定 函数的返回值将被作为文本输出。
+
+
+### 语言变量模块
+
+* __queries__ - 附加数据库请求
+	* __item__ - 数据库请求项。属性：
+		* __@for__ - 如果这个参数设置为“install”或者没有设置，会在插件安装时执行，如果设置为“uninstall”，会在插件卸载时执行。
+		* __@editions__ - 逗号分隔版本号。如果这个属性设置值，请求会针对指定版本执行。
+
+### 函数模块
+
+* __functions__ - 在某一事件上调用用户定义函数：before_install —— 插件安装前；install —— 安装插件之后，但其模版，设置，语言在激活和清理缓存之前；uninstall —— 卸载之前。
+* __item__ - 函数项。属性：
+	* __@for__ - 函数的触发器，函数会在指定事件发生时被调用。可取的值：before_install, install, uninstall
