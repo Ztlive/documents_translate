@@ -23,8 +23,8 @@
 ### 例子
 
 1.使用 __pre__ 和 __post__ 行为，这两个是不同的模版：
-  * rma/hooks/orders/xxx.pre.tpl 生成代码 <p>Front</p>
-  * rma/hooks/orders/xxx.post.tpl 生成代码 <p>Back</p>
+  * rma/hooks/orders/xxx.pre.tpl 写入代码 &lt;p&gt;Front&lt;/p&gt;
+  * rma/hooks/orders/xxx.post.tpl 写入代码 &lt;p&gt;Back&lt;/p&gt;
 
 钩子声明：
 
