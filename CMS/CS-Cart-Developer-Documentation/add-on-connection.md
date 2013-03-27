@@ -34,7 +34,7 @@
 {/hook}
 ```
 
-将会生成以下代码：
+最终将会产生以下代码：
 
 ```html
 <p>Front</p>
@@ -43,7 +43,7 @@
 ```
 
 2.使用 __override__ 行为，这是钩子模版：
-* rma/hooks/orders/xxx.override.tpl 生成代码 <p>Substitute</p>
+* rma/hooks/orders/xxx.override.tpl 写入代码 &lt;p&gt;Substitute&lt;/p&gt;
 
 钩子声明：
 
@@ -54,7 +54,7 @@
 ```
 
 
-当启用插件的RMA，会生成以下代码：
+当启用插件RMA，最终会产生以下代码：
 
 ```html
 <p>Substitute</p>
