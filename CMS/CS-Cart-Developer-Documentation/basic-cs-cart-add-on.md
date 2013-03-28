@@ -167,3 +167,79 @@ Contents
 
 现在我们已经设置完插件，开始创建主要执行部分 —— template.
 
+基本上我们需要做的是创建一个模版，使用块（block）并显示消息。我们通过使用Twitter提供的[脚本](http://widgets.twimg.com/j/2/widget.js)能够很方便的获取消息数据，Twitter为挂件提供了非常不错的[配置器](https://twitter.com/about/resources/widgets/widget_profile)，但是无论如何我们必须手动编辑代码，因为我们希望挂件通过插件来配置，所以我们必须替换相应变量的硬编码。别担心，这是非常简单的并且很快就会看到。
+
+我们要在块管理中的公共模版列表中创建模版，所以我们可以将它分配给任何块。所有的插件模版应该被添加到通用模版列表中，位置在以下目录中：
+
+> __skins/basic/customer/addons/addon_name/blocks/static_templates__
+
+模版是通用的Smarty .tpl 文件，文件名称无所谓，我们这里将命名为 feed.tpl，你可以根据你的喜好命名。
+
+这里是文件内容，下面会给出说明：
+
+```html
+{** block-description:my_twitter_addon **}
+
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({ldelim}
+    version: 2,
+    type: 'profile',
+    rpp: {$addons.my_twitter_addon.number_of_tweets},
+    interval: 6000,
+    width: 'auto',
+    height: 300,
+    theme: {ldelim}
+        shell: {ldelim}
+            background: '#FFFFFF',
+            color: '#373737'
+        {rdelim},
+        tweets: {ldelim}
+            background: '#D9EFF3',
+            color: '#373737',
+            links: '#005865'
+        {rdelim}
+    {rdelim},
+    features: {ldelim}
+        scrollbar: true,
+        loop: true,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: true,
+        behavior: 'default'
+    {rdelim}
+{rdelim}).render().setUser('{$addons.my_twitter_addon.username}').start();
+</script>
+```
+
+第一行字符串定义了模板将会出现在模板列表中:
+
+> {** block-description:my_twitter_addon **}
+
+然后Twitter消息脚本会被加载：
+
+```html
+<script src="http://widgets.twimg.com/j/2/widget.js"></script>
+```
+
+接下来的脚本定义了一个特殊的自定义TWTR.Widget对象。大多数参数都是硬编码，除了下面这两个：我们将接收插件设置中的参数：rpp 和 setUser。正如您所看到的，插件设置访问如下：
+
+> $addons.addon_name.property_id.
+
+注意，不幸的是，这不是Twitter提供的关于挂件的文档，所以如果任何参数意义尚不清楚（虽然不太可能），可以查看[配置器](https://twitter.com/about/resources/widgets/widget_profile)，然后改变一些值并观察，改变不同的参数并查看最终结果。
+
+另一个需要注意的地方：{ ldelim }和{ redelim }是Smarty用来替代{ and }，分别以避免无用代码执行的。
+
+
+#### 使用插件
+
+让我们把新的插件添加的系统中，打开Design->Blocks访问块管理页面，在这里选择你想要放置挂件的位置，并创建一个新的template块：
+
+![Add Block: Template]http://www.cs-cart.com/images/docs_nodes/5/resized_tw1.png
+
+选择它的模块_my_twitter_addon，并预览页面：
+
+![Twitter Feed in Action](http://www.cs-cart.com/images/docs_nodes/3/tw2.png)
+
+这里是你插件的效果。
