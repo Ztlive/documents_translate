@@ -28,7 +28,7 @@ CS-Cart 开发者文档
 * [CS-Cart 3.1.x的结构变化](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/architecture-changes-in-cs-cart-3.1.x.md) - 介绍CS-Cart3.1.x的结构变化
 
 ## 插件
-* [插件文件夹结构](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/add-on-folder-structure.md) - 介绍插件目录结构
+* [插件目录结构](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/add-on-folder-structure.md) - 介绍插件目录结构
 * [插件机制](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/add-on-scheme.md) - 插件机制的描述
 * [插件连接](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/add-on-connection.md) - 解释说明如何利用钩子连接插件
 * [2.x版本的插件迁移到3.x](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/adapting-add-on-from-2.x-to-3.md) - CS-Cart 3插件迁移指南
@@ -51,7 +51,7 @@ CS-Cart 开发者文档
 	* [对象选择标准](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/object-selection-standards.md) - 搜索标准
 	* [头部和文本格式](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/heading-and-text-formats.md) - 头部和文本格式的通用提示
 	* [addon.xml](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/addon.xml.md) - addon.xml完整的注释例子
-	* [基础钩子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/hook-base.md) - 完整的钩子列表
+	* [钩子基础](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/hook-base.md) - 完整的钩子列表
 	* [微格式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/microformats-list.md) - CS-Cart微格式说明
 	* [预定义样式列表](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/special-classes-list.md) - CS-Cart预定义样式说明
 	* [设计变更列子](https://github.com/jason-wong/documents_translate/blob/master/CMS/CS-Cart-Developer-Documentation/examples-of-design-changes.md) - 最常用的设计变更
