@@ -185,7 +185,7 @@ if (!empty($viewed_categories)) {
 
 为了能看到插件的行为，你必须先要安装它，打开后台（通常是 [your_domain]/admin.php）并进入Administration -> Add-ons，找到 __Advanced Add-on__ 项并点击install，你应该能看到安装成功的消息。
 
-打开后台主页并滚动到最新订单区域，你应该能看到类似这样的内容：
+打开后台主页并滚动到最新订单区域下方，你应该能看到类似这样的内容：
 
 ![viewed-categories-empty](http://www.cs-cart.com/images/docs_nodes/5/viewed-categories-empty.png)
 
