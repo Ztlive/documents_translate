@@ -236,7 +236,7 @@ new TWTR.Widget({ldelim}
 
 让我们把新的插件添加的系统中，打开Design->Blocks访问块管理页面，在这里选择你想要放置挂件的位置，并创建一个新的template块：
 
-![Add Block: Template]http://www.cs-cart.com/images/docs_nodes/5/resized_tw1.png
+![Add Block: Template](http://www.cs-cart.com/images/docs_nodes/5/resized_tw1.png)
 
 选择它的模块_my_twitter_addon，并预览页面：
 
