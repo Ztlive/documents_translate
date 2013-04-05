@@ -76,7 +76,7 @@ fn_register_hooks(
 
 ### 获取数据：func.php
 
-在插件目录（__addons/advanced_addon__）创建一个func.php文件，它将包含实际的函数嵌入钩子（[下载](http://docs.cs-cart.com/index.php?dispatch=docs.getfile&attachment_id=87828)）：
+在插件目录（__addons/advanced_addon__）创建一个func.php文件，它将包含一些嵌入钩子的函数（[下载](http://docs.cs-cart.com/index.php?dispatch=docs.getfile&attachment_id=87828)）：
 
 > addons/advanced_addon/func.php
 
