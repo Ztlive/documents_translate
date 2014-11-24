@@ -1,7 +1,7 @@
 Redis互动教程（中文）
 ===================================
 ### Author:Jason-wong
-### 项目地址:https://github.com/jason-wong/documents_translate
+### 项目地址:https://github.com/json-wong/documents_translate
 ### 原文地址：http://try.redis.io/
 
 Intro
